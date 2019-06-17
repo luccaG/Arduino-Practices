@@ -3,10 +3,10 @@
 const byte FILAS=4;
 const byte COLUMNAS=4;
 char teclas[FILAS][COLUMNAS]={
-  {'1','2','3','A'},
-  {'4','5','6','B'},
-  {'7','8','9','C'},
-  {'*','0','#','D'}
+  {'R','7','4','1'},
+  {'0','8','5','2'},
+  {'>','9','6','3'},
+  {'D','C','B','A'}
  };
 byte row_pins[FILAS]={9,8,7,6};
 byte col_pins[COLUMNAS]={5,4,3,2};
